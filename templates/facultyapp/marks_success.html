@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% include 'navbar/facultyNavbar.html' %}
+<h2>Marks have been successfully posted!</h2>
+<a href="{% url 'facultyapp:post_marks' %}">Post more marks</a>
+
+</body>
+</html>
